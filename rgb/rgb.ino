@@ -30,7 +30,6 @@ int ranNum()
 {
   return random(0, 2);
 }
-
 void rgb(int r, int g, int b)
 {
   digitalWrite(R_LED, r);
